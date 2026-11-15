@@ -1,0 +1,25 @@
+{
+  "id": "/",
+  "name": "Quintal de Jogos",
+  "short_name": "Quintal",
+  "description": "Três jogos simples de psicomotricidade para pessoas idosas: Pega a Fruta, Jogo da Memória e Acenda as Luzes.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "/?app=1",
+  "scope": "/",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "any",
+  "background_color": "#DCEEF8",
+  "theme_color": "#B9DCF4",
+  "categories": ["games", "health", "education"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    { "src": "/shot-wide.png", "sizes": "1280x720", "type": "image/png", "form_factor": "wide", "label": "Menu com os três jogos" },
+    { "src": "/shot-narrow.png", "sizes": "780x1688", "type": "image/png", "form_factor": "narrow", "label": "Menu no celular" }
+  ]
+}
